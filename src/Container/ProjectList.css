@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.List_Container .allProjects{
+    padding-left: 20px;
+    background-color: rgb(224, 224, 224);
+    flex:1;
+    overflow: scroll;
+    
+
+}
+.List_Container .allProjects::-webkit-scrollbar{
+    display: none;
+}
+/* .List_Container h1{
+    display: flex;
+    overflow: hidden;
+} */

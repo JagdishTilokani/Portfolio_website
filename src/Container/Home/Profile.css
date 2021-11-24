@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center ;
+    min-height: fit-content;
+    width: 100%;
+    background-color: #095a55;
+    color:aliceblue;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width:50px;
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+}
+.skill{
+    height: 30px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+/* .skill-wraper{
+    margin-top: -10%;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration:4s;
+    overflow: hidden;
+} */
+/* @keyframes run {
+    0%{
+        margin-top: 0;
+    }
+    100%{
+        margin-top: -6%;
+    }  
+    
+} */
+.skill_detail{
+    height: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+.social a{
+    color: rgb(231, 0, 127);
+    padding-right: 15px;
+}
+.social a:hover{
+    transform: scale(1.7);
+    font-size: 15px;
+    color:white;
+
+}
+
+.profile_main{
+    display: flex;
+    align-items:center;
+    padding: 100px 0;
+    /* justify-content:center; */
+
+}
+/* .profile_details{
+    /* justify-conte; */
+
+.profile_image{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    box-shadow: 0 1px 0 0 var(white);
+    height: 380px;
+    width: 380px;
+    margin:70px 0 0 200px
+}
+.profile_image .image_background{
+    height: 90%;
+    width:80%;
+    box-shadow: 3px 3px rgb(24, 87, 146), -1em 0 .5em rgb(98, 121, 255);
+    border-radius: 200px 200px 200px 20px;
+    background-image: url("https://media-exp1.licdn.com/dms/image/C4E03AQFPXzlRLTWgQA/profile-displayphoto-shrink_800_800/0/1627638501440?e=1643241600&v=beta&t=5sK0UsyZqVdxxdrXHmTt-xEaMFcJc2gq_W_7dFCsc1Y");
+    background-size: cover;
+}
+.profile_image .image_background:hover{
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
