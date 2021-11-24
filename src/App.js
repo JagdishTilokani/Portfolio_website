@@ -12,11 +12,11 @@ function App() {
                 <NavBar />
                 <Routes>
                     <Route path="/Profile" element={<Profile />}></Route>
-                    <Route path="/Projects" element={<Projects />}></Route>
                     <Route
                         path="/ContactInfo"
                         element={<ContactInfo />}
                     ></Route>
+                    <Route path="/Projects/*" element={<Projects />}></Route>
                 </Routes>
             </Router>
         </div>

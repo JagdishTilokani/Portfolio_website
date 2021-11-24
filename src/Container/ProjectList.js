@@ -6,12 +6,10 @@ import "./ProjectList.css";
 
 function ProjectList(props) {
     const Variable = props.title;
-    console.log(typeof(Variable));
+    console.log(Variable);
     return (
         <div className="List_Container">
-            <div className="allProjects">
-                <Variable />
-            </div>
+            <div className="allProjects">{Variable}</div>
         </div>
     );
 }

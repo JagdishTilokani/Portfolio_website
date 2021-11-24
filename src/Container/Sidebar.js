@@ -5,23 +5,29 @@ import Javascript from "./Javascript";
 import PHP_SQL from "./PHP_SQL";
 import SidebarOption from "./SidebarOption";
 
-function Sidebar() {
+function Sidebar(props) {
     return (
         <div className="sidebar">
             {/* use Navigate */}
             <SidebarOption
                 classname={"fab fa-python"}
-                title={Python}
+                onselect={() => {
+                    props.onselect(Python);
+                }}
                 number={2}
             />
             <SidebarOption
                 classname={"fab fa-js"}
-                title={Javascript}
+                onselect={() => {
+                    props.onselect(Javascript);
+                }}
                 number={1}
             />
             <SidebarOption
                 classname={"fab fa-php"}
-                title={PHP_SQL}
+                onselect={() => {
+                    props.onselect(PHP_SQL);
+                }}
                 number={1}
             />
             {/* <SidebarOption
