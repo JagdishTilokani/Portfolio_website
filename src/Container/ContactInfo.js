@@ -16,7 +16,7 @@ function ContactInfo() {
       Name:PersonData.Name,
       Email:PersonData.Email,
       Country:PersonData.Country,
-      Country:PersonData.Phone_number,
+    //   Country:PersonData.Phone_number,
       Mssg:PersonData.Mssg
     }
     )

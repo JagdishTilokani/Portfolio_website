@@ -1,14 +1,14 @@
 import React from 'react'
 import './Projects.css'
 import Sidebar from './Sidebar';
-import Python from './Python';
+// import Python from './Python';
 // import {BrowserRouter as Router,Route,  Routes } from 'react-router-dom';
-import ProjectList from './ProjectList';
-function Projects({titles}) {
+// import ProjectList from './ProjectList';
+function Projects(props) {
   return (
     <div className="Project_Container">
       <Sidebar />
-      <ProjectList /> 
+      {/* <ProjectList/>  */}
     </div>
   )
 }

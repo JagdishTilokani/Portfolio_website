@@ -2,9 +2,10 @@ import React from 'react'
 import './Python.css'
 import VideoPlayer from 'react-video-js-player'
 import Codechef from './Codechef.mp4'
+
 function Python() {
   const videoSrc=Codechef;
-  const poster=" "
+//   const poster=" "
   return (
     <div className="ProjectMain">
       <div className="py p1">
